@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/unmer2.png" type="image/x-icon">
+
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <style>
+        .profile-container {
+            display: flex;
+            justify-content: center;
+            /* align-items: flex-start; */
+            margin-bottom: 20px;
+        }
+
+        .profile-container img {
+            margin-right: 20px;
+            width: 10rem;
+            height: auto;
+            object-fit: cover;
+            border-radius: 10%;
+        }
+
+        .profile-container .profile-details {
+            max-width: 600px;
+        }
+
+        .profile-container .profile-details h2 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+
+        .profile-container .profile-details p {
+            margin: 5px 0;
+            font-size: 1em;
+        }
+
+        .profile-details .participant {
+            margin-bottom: 15px;
+        }
+    </style>
+
+    <title>LAPORAN PKL UNMER</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <!-- <i class="ri-leaf-line nav__logo-icon"></i> Plantex -->
+                <img src="./assets/img/unmer2.png" style="width: 3rem; height: auto;" alt="">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#profil" class="nav__link">Profil</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">Kegiatan</a>
+                    </li>
+                    <!-- <li class="nav__item">
+                        <a href="#products" class="nav__link">Products</a>
+                    </li> -->
+                    <li class="nav__item">
+                        <a href="struktur.html" class="nav__link">Sturuktur</a>
+                    </li>
+                    <!-- <li class="nav__item">
+                        <a href="#faqs" class="nav__link">FAQs</a>
+                    </li> -->
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Infomasi</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <img src="assets/img/unmer1.png" alt="" class="home__img">
+
+                <div class="home__data">
+                    <h1 class="home__title">
+                        UNIVERSITAS MERDEKA MALANG (UNMER) <br> KOTA MALANG
+                    </h1>
+                    <p class="home__description">
+                       Unmer merupakan universitas swasta tertua di Malang, kampus yang biasa disebut dengan Unmer Malang ini memiliki slogan "The Quality University" yang bertujuan menciptakan sumber daya manusia yang handal di skala nasional maupun internasional.
+                    </p>
+                    <!-- <a href="#about" class="button button--flex">
+                        Penjelasan <i class="ri-arrow-right-down-line button__icon"></i>
+                    </a> -->
+                </div>
+
+                <div class="home__social">
+                    <span class="home__social-follow">Follow Us</span>
+
+                    <div class="home__social-links">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                        <section id="profil"></section>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="profile-container">
+            <img src="assets/img/magang3.jpg" alt="Profil Foto">
+            <div class="profile-details">
+                <h2>Profil Peserta PKL Unmer SMK NEGERI 9</h2>
+                <div class="participant">
+                    <p><strong>NAMA:</strong> FIRNANDA NABILA FALESYA</p>
+                    <p><strong>KELAS:</strong> XI RPL 1</p>
+                    <p><strong>POSISI DI PUSIM:</strong>  YANG BERGERAK DI BIDANG CODINGAN</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section container">
+            <div class="about__container grid">
+                <img src="assets/img/Pusim.png" style="border-radius: 2rem;" alt="" class="about__img">
+
+                <div class="about__data">
+                    <h2 class="section__title about__title">
+                        Kami Di Pusim Mendapatkan Pembelajaran<br>
+                    </h2>
+
+                    <p class="about__description">
+                        Yang Kami Dapatkan Dari Tempat Magang Kami Yaitu Sebagai Berikut
+                    </p>
+
+                    <div class="about__details">
+                        <p class="about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i>
+                            Disiplin Waktu Dan Cekat
+                        </p>
+                        <p class="about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i>
+                            Selalu Hormat Dan Menghargai Atasan
+                        </p>
+                        <p class="about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i>
+                            Mematuhi Setiap Peraturan Yang Ada
+                        </p>
+                        
+
+                    <!-- <a href="#" class="button--link button--flex">
+                            Shop Now <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a> -->
+                </div>
+            </div>
+        </section>
+
+        <!--==================== STEPS ====================-->
+        <section class="steps section container" id="about">
+            <div class="steps__bg">
+                <h2 class="section__title-center steps__title">
+                    Hal Hal Yang Kami Lakukan Di PUSIM<br> (Pusat Sistem Infomasi dan Multimedia)
+                </h2>
+
+                <div class="steps__container grid">
+                    <div class="steps__card">
+                        <div class="steps__card-number"><img src="./assets/img/tugas2.jpeg" style="width: 400rem;" alt="">
+                        </div>
+                        <h3 class="steps__card-title">Membuat & Memahami Fungsi Dari Docker, CodeIgniter Dan Gitlab  </h3>
+                        <p class="steps__card-description">
+                            Untuk kegiatan ini kami mencatat dan memahami fungsi dari aplikasi yang akan saya jalankan. Dari aplikasi tersebut kita bisa menjalankan sebuah codingan yang akan menghasilkan web.
+                        </p>
+                    </div>
+
+                    <div class="steps__card">
+                        <div class="steps__card-number"><img src="./assets/img/tugas3.jpeg" width="200rem" alt=""></div>
+                        <h3 class="steps__card-title">Ini Adalah Contoh Halaman Dashboard</h3>
+                        <p class="steps__card-description">
+                            Di halaman dashboard  multi-aliran dapat berupa halaman beranda atau dasbor spesifik tabel.Pilih tampilan dan isi seluruh informasi yang diperlukan pada halaman.
+                        </p>
+                    </div>
+
+                    <div class="steps__card">
+                        <div class="steps__card-number"><img src="./assets/img/tugas6.jpeg" width=200rem" alt=""></div>
+                        <h3 class="steps__card-title">Ini Adalah Contoh Tugas Saya Yang Ketiga  </h3>
+                        <p class="steps__card-description">
+                            Disini saya di tugaskan untuk membuat halaman login , 
+                        
+                        </p>
+                    </div>
+
+                    <div class="steps__card">
+                        <div class="steps__card-number"><img src="./assets/img/tugas4.jpeg" width=200rem" alt=""></div>
+                        <h3 class="steps__card-title">Absensi Pagi PKKMB</h3>
+                        <p class="steps__card-description">
+                          Kegiatan ini saya membantu panitia untuk mengabsensi para mahasiswa baru sebeleum melakukan kegiatan PKKMB di fakulitas ekonomi dan bisnis. Di sini  saya memantau  apakah skennya berjalan dengan baik.
+                        </p>
+                    </div>
+
+                    <div class="steps__card">
+                        <div class="steps__card-number"><img src="./assets/img/tugas5.jpeg" width=200rem" alt=""></div>
+                        <h3 class="steps__card-title">Merapikan Barang Gudang Yang Sudah Di Data </h3>
+                        <p class="steps__card-description">
+                           Saya ditugaskan merapikan barang yang sudah di data . 
+                            jika ada  barang keluar  masuk gudang saya di tugaskan untuk mengecek dan mencatat barang tersebut.  
+                        </p>
+                    </div>
+
+                    <div class="steps__card">
+                        <div class="steps__card-number"><img src="./assets/img/tugas1.jpeg" width=200rem" alt=""></div>
+                        <h3 class="steps__card-title">Memantau Kuliah Hybrid</h3>
+                        <p class="steps__card-description">
+                           Kali ini saya bertugas memantau zoom kuliah hybrid , zom ini dilakukan
+                            oleh para  dosen dan mahasiswa s2-s3.  Jika ada dosen yang kesulitan  saya bisa membantu.
+                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PRODUCTS ====================
+        <section class="product section container" id="products">
+            <h2 class="section__title-center">
+                Check out our <br> products
+            </h2>
+
+            <p class="product__description">
+                Here are some selected plants from our showroom, all are in excellent
+                shape and has a long life span. Buy and enjoy best quality.
+            </p>
+
+            <div class="product__container grid">
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/tugas1.jpeg" alt="" class="product__img">
+
+                    <h3 class="product__title">Cacti Plant</h3>
+                    <span class="product__price">$19.99</span>
+
+                    <button class="button--flex product__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/tugas2.jpeg" alt="" class="product__img">
+
+                    <h3 class="product__title">Cactus Plant</h3>
+                    <span class="product__price">$11.99</span>
+
+                    <button class="button--flex product__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/tugas3.jpeg" alt="" class="product__img">
+
+                    <h3 class="product__title">Aloe Vera Plant</h3>
+                    <span class="product__price">$7.99</span>
+
+                    <button class="button--flex product__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/tugas1.jpeg alt="" class="product__img">
+
+                    <h3 class="product__title">Succulent Plant</h3>
+                    <span class="product__price">$5.99</span>
+
+                    <button class="button--flex product__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/tugas5.jpeg" alt="" class="product__img">
+
+                    <h3 class="product__title">Succulent Plant</h3>
+                    <span class="product__price">$10.99</span>
+
+                    <button class="button--flex product__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+
+                <article class="product__card">
+                    <div class="product__circle"></div>
+
+                    <img src="assets/img/tugas6.jpeg" alt="" class="product__img">
+
+                    <h3 class="product__title">Green Plant</h3>
+                    <span class="product__price">$8.99</span>
+
+                    <button class="button--flex product__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+            </div>
+        </section> -->
+
+        <!--==================== QUESTIONS ====================-->
+        <!-- <section class="questions section" id="faqs">
+            <h2 class="section__title-center questions__title container">
+                Some common questions <br> were often asked
+            </h2>
+
+            <div class="questions__container container grid">
+                <div class="questions__group">
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                My flowers are falling off or dying?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Plants are easy way to add color energy and transform your
+                                space but which planet is for you. Choosing the right plant.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                What causes leaves to become pale?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Plants are easy way to add color energy and transform your
+                                space but which planet is for you. Choosing the right plant.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                What causes brown crispy leaves?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Plants are easy way to add color energy and transform your
+                                space but which planet is for you. Choosing the right plant.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="questions__group">
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                How do i choose a plant?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Plants are easy way to add color energy and transform your
+                                space but which planet is for you. Choosing the right plant.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                How do I change the pots?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Plants are easy way to add color energy and transform your
+                                space but which planet is for you. Choosing the right plant.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                Why are gnats flying around my plant?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Plants are easy way to add color energy and transform your
+                                space but which planet is for you. Choosing the right plant.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section container" id="contact">
+            <div class="contact__container grid">
+                <div class="contact__box">
+                    <h2 class="section__title">
+                        Hubungi kami <br> melalui informasi <br> mana pun yang diberikan
+                    </h2>
+
+                    <div class="contact__data">
+                        <div class="contact__information">
+                            <h3 class="contact__subtitle">Telp </h3>
+                            <span class="contact__description">
+                                <i class="ri-phone-line contact__icon"></i>
+                                0341-568395
+                            </span>
+                        </div>
+
+                        <div class="contact__information">
+                            <h3 class="contact__subtitle">Email</h3>
+                            <span class="contact__description">
+                                <i class="ri-mail-line contact__icon"></i>
+                                birohumas@unmer.ac.id
+                            </span>
+                        </div>
+
+                        <div class="contact__information">
+                            <h3 class="contact__subtitle">Alamat</h3>
+                            <span class="contact__description">
+                                <i class="ri-map-pin-line contact__icon"></i>
+                                Jl. Terusan Raya Dieng No. 62-64, Malang, Jawa Timur, Indonesia
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__map">
+                    <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1975.625150890513!2d112.60877700869825!3d-7.9730631122729445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd6282b59adba8f%3A0xedb4ecc5e4924fbc!2sUniversitas%20Merdeka%20Malang!5e0!3m2!1sid!2sid!4v1731984063893!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <!-- <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">
+                    <i class="ri-leaf-line footer__logo-icon"></i> Plantex
+                </a>
+
+                <h3 class="footer__title">
+                    Subscribe to our newsletter <br> to stay update
+                </h3>
+
+                <div class="footer__subscribe">
+                    <input type="email" placeholder="Enter your email" class="footer__input">
+
+                    <button class="button button--flex footer__button">
+                        Subscribe
+                        <i class="ri-arrow-right-up-line button__icon"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Our Address</h3>
+
+                <ul class="footer__data">
+                    <li class="footer__information">1234 - Peru</li>
+                    <li class="footer__information">La Libertad - 43210</li>
+                    <li class="footer__information">123-456-789</li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Contact Us</h3>
+
+                <ul class="footer__data">
+                    <li class="footer__information">+999 888 777</li>
+
+                    <div class="footer__social">
+                        <a href="https://www.facebook.com/" class="footer__social-link">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" class="footer__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://twitter.com/" class="footer__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    We accept all credit cards
+                </h3>
+
+                <div class="footer__cards">
+                    <img src="assets/img/card1.png" alt="" class="footer__card">
+                    <img src="assets/img/card2.png" alt="" class="footer__card">
+                    <img src="assets/img/card3.png" alt="" class="footer__card">
+                    <img src="assets/img/card4.png" alt="" class="footer__card">
+                </div>
+            </div>
+        </div> -->
+
+        <p class="footer__copy">&#169; Aeris. All rigths reserved</p>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-fill scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
